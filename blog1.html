@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+                <title>A Photo Story</title>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+                <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Poppins&display=swap');
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .offset::before{
+            display: block;
+            content: "";
+            height: 6rem;
+        }
+        
+        .column {
+            float: left;
+            width: 30%;
+          }
+        
+        .navbar{
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            background: rgba(0,0,0,0.6);
+            padding: 20px 0;
+            opacity: 0.7;
+        }
+        
+        .navbar-dark .navbar-nav .nav-link{
+            color: #fff;
+            padding-left: 20px;
+        }
+        
+        .navbar-dark .navbar-nav .nav-link.active,
+        .navbar-dark .navbar-nav .nav-link:hover{
+            color: #FC9A04;
+        }
+        
+        .heading-content{
+            position: absolute;
+            top: 45%;
+            width: 100%;
+            max-width: 100%;
+        }
+        
+        .heading-content h5{
+            font-size: 3em;
+            font-weight: 300;
+            color: #fff;
+            font-family: monospace;
+        }
+        
+        .heading-content h1{
+            font-size: 5em;
+            font-weight: bolder;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .heading-content p{
+            font-size: 1em;
+            text-transform: uppercase;
+            font-weight: lighter;
+            color: #ccc;
+            word-spacing: 5px;
+            letter-spacing: 2px;
+        }
+        
+        /*-------------------------About Starts--------------------------------*/
+        #about .btn{
+            border:2px solid transparent;
+            width: 40%;
+            padding: 15px 22px;
+            background: #000;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        #about .btn a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        #about .btn a:hover{
+            border: 2px solid #1ebba3;
+            cursor: pointer;
+        }
+        
+        /*-----------------------Media Query------------------------*/
+        
+        @media screen and (max-width: 767px){
+            /*------------tablets-----------------*/
+            .navbar{
+                letter-spacing: 0.1rem;
+                padding: 10px 0;
+            }
+            .heading-content h5{
+                font-size: 2em;
+            }
+        
+            .heading-content h1{
+                font-size: 3em;
+            }
+        
+            .heading-content p{
+                font-size: 1em;
+            }
+        }
+        
+        @media screen and (max-width: 479px){
+            /*--------------smartphone----------------*/
+            .navbar{
+                letter-spacing: 0.1rem;
+                padding: 10px 0;
+            }
+            .heading-content h5{
+                font-size: 1em;
+            }
+        
+            .heading-content h1{
+                font-size: 2em;
+            }
+        
+            .heading-content p{
+                font-size: 1em;
+            }
+        
+            #contact .post-heading h3{
+                font-size: 2em;
+            }
+        }
+        
+                </style>
+            
+            </head>
+            <body data-spy="scroll" data-target="#navbarResponsive">
+                <div id="home">
+                    <!-----------------------Navigation Starts----------------------->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target= "#navbarResponsive" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">A Photo Story (ଗତିବିଧି ଆଧାରିତ ଶିକ୍ଷା ପଦ୍ଧତି: ଏକ ଫୋଟ ଷ୍ଟୋରି)</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#skills"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            <!-----------------------Navigation Ends----------------------->
+        </div>
+        <!-----------------------About Starts----------------------->
+        <div id="about" class="offset container mt-3 pb-5">
+            <div class="post-heading text-center">
+                <h3 class="display-4 font-weight-bold"></h3>
+                <hr class="w-50 mx-auto pb-5">
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <img src="blog1.png" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h2>A Photo Story (ଗତିବିଧି ଆଧାରିତ ଶିକ୍ଷା ପଦ୍ଧତି: ଏକ ଫୋଟ ଷ୍ଟୋରି)</h2>
+                    <hr>
+                    <p>
+                        ଥିଙ୍କଜୋନରେ ଆମେ ବିଶ୍ଵାସ କରୁ ଯେ ଗତିବିଧି ଆଧାରିତ ଶିକ୍ଷା ପଦ୍ଧତି ପିଲାମାନଙ୍କୁ ଗୁଣାତ୍ମକ ଶିକ୍ଷା ପ୍ରଦାନ କରିବା ପାଇଁ ସର୍ବତ୍ତୋମ  ମାଧ୍ୟମ । ଗତିବିଧି ଆଧାରିତ ଶିକ୍ଷା ହେଉଛି ଏକ ପ୍ରକ୍ରିୟା ଯେଉଁଥିରେ ପିଲାମାନେ ବିଭିନ୍ନ କାର୍ଯ୍ୟକଳାପରେ ଅଂଶଗ୍ରହଣ କରି ଶିଖନ୍ତି ।  ଅଡିଓ, ଭିଡିଓ, ଖେଳ, ଗପ, ପାଠ୍ୟ ଉପକରଣ ଇତ୍ୟାଦି ବ୍ୟବହାର କରି ପାଠ ପଢାଇବା ପଦ୍ଧତି ହେଉଛି ଗତିବିଧି ଆଧାରିତ ଶିକ୍ଷା ପଦ୍ଧତି । ଏହା ପିଲାମାନଙ୍କ ମଧ୍ୟରେ ଆଗ୍ରହ ସୃଷ୍ଟି କରିବା ସହ ପାଠକୁ ଭଲ ଭାବରେ ବୁଝି ପାରିବା । ଥିଙ୍କଜୋନ ସେଣ୍ଟରମାନଙ୍କରେ, ବିଦ୍ୟାଳୟରେ, ଅଙ୍ଗନବାଡ଼ିରେ ଶିକ୍ଷକ ମାନେ ଗତିବିଧି ଆଧାରିତ ଶିକ୍ଷା ପଦ୍ଧତି ଅନୁକରଣ କରି ଥାଆନ୍ତି । ଏଠାରେ ଫୋଟ ମାଧ୍ୟମରେ ମୁଁ ଥିଙ୍କଜୋନର ବିଭିନ୍ନ ସେଣ୍ଟରରେ ହେଉଥିବା ଗତିବିଧି ଶିକ୍ଷା ଦେଖାଇବାକୁ ଯାଉଛି ।
+                        <br><br>
+                        ଫ୍ଲାସକାର୍ଡ ଆମକୁ ଜିନିଷ ମନେ ରଖିବା ପାଇଁ ସାହାଯ୍ୟ କରିଥାଏ । ଏଠାରେ ପିଲାମାନେ ଫ୍ଲାସକାର୍ଡ ମାଧ୍ୟମରେ ଫୁଲଫଳ ଶିଖୁଛନ୍ତି ।
+                        <br><br>
+                        ଚାର୍ଟ ଆମକୁ ଦେଖି ଶିଖିବାରେ ସାହାଯ୍ୟ କରିଥାଏ । କାରଣ କୌଣସି ଜିନିଷକୁ ଶୁଣି ମନେ ରଖିବା ଅପେକ୍ଷା ଦେଖି ମନେ ରଖିବା ସହଜ ହୋଇଥାଏ ।
+                        <br><br>
+                        ଏଠାରେ ପିଲାମାନେ କିଣା-ବିକା ଶିଖିବା ପାଇଁ ଖେଳଣା ନୋଟ ବ୍ୟବହାର କରୁଛନ୍ତି । ଫ୍ଲାସକାର୍ଡ, ଚାର୍ଟ, ଖେଳଣା ନୋଟ ଭାଲି ବିଭିନ୍ନ ପ୍ରକାର ଉପକରଣ ବ୍ୟବହାର କରି ଆମେ ପାଠ ପଢାଇଥାଉ ।
+                        <br><br>
+                        ଗପ ପାଠ ପଢାଇବାର ଏକ ବହୁତ ପୁରାତନ ମାଧ୍ୟମ । ଏହା ପିଲାମାନଙ୍କ ଶ୍ରବଣ କ୍ଷମତା, ପଢିବା ଶୈଳୀ, ନୂତନ ଶବ୍ଦ ଶିଖିବା ଦକ୍ଷତା ଉନ୍ନତ କରିଥାଏ ।
+                        <br><br>
+                        ଖେଳ ପିଲାମାନଙ୍କର ଶାରୀରିକ, ସ୍ମୃତି ଶକ୍ତି, ସାମାଜିକ-ଆବେଗିକ ବିକାଶ କରିବାରେ ସାହାଯ୍ୟ କରେ । କାରଣ ପିଲାମାନେ ଖେଳିବାକୁ ବହୁତ ପସନ୍ଦ କରିଥାଆନ୍ତି ।
+                        <br><br>
+                        ଥିଙ୍କଜୋନରେ ଆମେ ଚିତ୍ର କରି ଶିଖିବାରେ ମଧ୍ୟ ବିଶ୍ଵାସ କରିଥାଉ । ଏଠାରେ ପିଲାମାନେ ବିଭିନ୍ନ ଆକୃତି ବ୍ୟବହାର କରି ଚିତ୍ର କରିଛନ୍ତି
+                    </p>
+                      
+                </div>
+            </div>
+        </div>
+        <!-----------------------About Ends----------------------->
+            
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
+</html>

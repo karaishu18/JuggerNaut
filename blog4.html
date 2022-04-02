@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+                <title>Stories: A way to learn </title>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+                <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Poppins&display=swap');
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        .offset::before{
+            display: block;
+            content: "";
+            height: 6rem;
+        }
+        
+        .column {
+            float: left;
+            width: 30%;
+          }
+        
+        .navbar{
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            background: rgba(0,0,0,0.6);
+            padding: 20px 0;
+            opacity: 0.7;
+        }
+        
+        .navbar-dark .navbar-nav .nav-link{
+            color: #fff;
+            padding-left: 20px;
+        }
+        
+        .navbar-dark .navbar-nav .nav-link.active,
+        .navbar-dark .navbar-nav .nav-link:hover{
+            color: #FC9A04;
+        }
+        
+        .heading-content{
+            position: absolute;
+            top: 45%;
+            width: 100%;
+            max-width: 100%;
+        }
+        
+        .heading-content h5{
+            font-size: 3em;
+            font-weight: 300;
+            color: #fff;
+            font-family: monospace;
+        }
+        
+        .heading-content h1{
+            font-size: 5em;
+            font-weight: bolder;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .heading-content p{
+            font-size: 1em;
+            text-transform: uppercase;
+            font-weight: lighter;
+            color: #ccc;
+            word-spacing: 5px;
+            letter-spacing: 2px;
+        }
+        
+        /*-------------------------About Starts--------------------------------*/
+        #about .btn{
+            border:2px solid transparent;
+            width: 40%;
+            padding: 15px 22px;
+            background: #000;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        #about .btn a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        #about .btn a:hover{
+            border: 2px solid #1ebba3;
+            cursor: pointer;
+        }
+        
+        /*-----------------------Media Query------------------------*/
+        
+        @media screen and (max-width: 767px){
+            /*------------tablets-----------------*/
+            .navbar{
+                letter-spacing: 0.1rem;
+                padding: 10px 0;
+            }
+            .heading-content h5{
+                font-size: 2em;
+            }
+        
+            .heading-content h1{
+                font-size: 3em;
+            }
+        
+            .heading-content p{
+                font-size: 1em;
+            }
+        }
+        
+        @media screen and (max-width: 479px){
+            /*--------------smartphone----------------*/
+            .navbar{
+                letter-spacing: 0.1rem;
+                padding: 10px 0;
+            }
+            .heading-content h5{
+                font-size: 1em;
+            }
+        
+            .heading-content h1{
+                font-size: 2em;
+            }
+        
+            .heading-content p{
+                font-size: 1em;
+            }
+        
+            #contact .post-heading h3{
+                font-size: 2em;
+            }
+        }
+        
+                </style>
+            
+            </head>
+            <body data-spy="scroll" data-target="#navbarResponsive">
+                <div id="home">
+                    <!-----------------------Navigation Starts----------------------->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target= "#navbarResponsive" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">Stories: A way to learn (ଗଳ୍ପ: ପାଠ ଶିଖିବାର ଏକ ମାଧ୍ୟମ)</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#skills"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            <!-----------------------Navigation Ends----------------------->
+        </div>
+        <!-----------------------About Starts----------------------->
+        <div id="about" class="offset container mt-3 pb-5">
+            <div class="post-heading text-center">
+                <h3 class="display-4 font-weight-bold"></h3>
+                <hr class="w-50 mx-auto pb-5">
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <img src="blog4.png" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h2>Stories: A way to learn (ଗଳ୍ପ: ପାଠ ଶିଖିବାର ଏକ ମାଧ୍ୟମ)</h2>
+                    <hr>
+                    <p>
+                        “If you want your children to be smart, tell them stories. If you want them to be brilliant, tell them more stories” – ଆଲବର୍ଟ ଆଇନଷ୍ଟାଇନ
+                        <br><br>
+                        ‘ଗଳ୍ପ’ ଏହି ଶବ୍ଦଟି ଶୁଣିଦେଲେ ମନରେ ଆନନ୍ଦ ଖେଳିଯାଏ । ପିଲାଠାରୁ ବୁଢା ପର୍ଯ୍ୟନ୍ତ ସମସ୍ତଙ୍କୁ ଗପ ଶୁଣିବାକୁ, କହିବାକୁ ଭଲ ଲାଗେ । ଗପ ଯେ ଖାଲି ମନୋରଞ୍ଜନ କରାଏ ତାହା ନୁହେଁ, ଏହା ହେଉଛି ଶିଖିବାର ସର୍ବ ପୁରାତନ ମାଧ୍ୟମ । ଜେଜେମା ଗପ ଆମ ଶିଖିବାର ପ୍ରଥମ ପାହାଚ ଥିଲା । ସତ କହିବା, କାହାରି ଖରାପ ଭାବିବା ନାହିଁ, ଆଦର ସମ୍ମାନ କରିବା ଏହି ସବୁ ନୈତିକତା ବୋଧ ସେହି ଜେଜେମା ଗପ ହିଁ ଶିଖାଇଥାଏ । କେବଳ ନୈତିକତା ନୁହେଁ, ଗଳ୍ପ ଆମକୁ ବିଭିନ୍ନ ଜିନିଷ ଶିଖାଇଥାଏ ।
+                        <br><br>
+                        ପିଲାମାନେ ଗପ ଦ୍ଵାରା ବହୁତ ଆକୃଷ୍ଟ ହୋଇଥାଏ । ଯେହେତୁ ପିଲାମାନେ ଗପ ଶୁଣିବାକୁ ଭଲ ପାଆନ୍ତି, ଏହା ପିଲାମାନଙ୍କର ଶ୍ରବଣ ଶକ୍ତି କୌଶଳ ଉନ୍ନତି କରିବାରେ ସାହାଯ୍ୟ କରିଥାଏ ।
+                        ଗପ ପିଲାମାନଙ୍କୁ ପାଠ ବହି ବାହାରକୁ ଭାବିବା ପାଇଁ ସାହାଯ୍ୟ କରିଥାଏ ।
+                        ପିଲାମାନେ ଗପ ଦ୍ଵାରା ବହୁତ ଶବ୍ଦ ମଧ୍ୟ ଶିଖିଥାଆନ୍ତି ।
+                        ଗପ ପିଲାମାନଙ୍କର କଳ୍ପନା ଶକ୍ତି ବୃଦ୍ଧି କରିବାରେ ସାହାଯ୍ୟ କରେ ।
+                        ଥିଙ୍କଜୋନରେ ଆମେ ଗପ ମାଧ୍ୟମରେ ପାଠ ପଢା ଉପରେ ବିଶ୍ଵାସ କରୁ । ଗପ ଦ୍ଵାରା ପାଠ ପଢାଇବା ଦ୍ଵାରା ପିଲାମାନେ ଭଲ ଭାବରେ ମାନେ ରଖିବା ସହିତ ଏକ ଧାରଣାକୁ ବୁଝି ପାରନ୍ତି । ଏହା ମଧ୍ୟ ପିଲାମାନଙ୍କୁ ଅନେକ ନୂତନ ଶବ୍ଦ ସହ ପରିଚୟ କରାଇଥାଏ ।  କାରଣ ସାଧାରଣ ଯୋଗାଯୋଗ କରିବା ସମୟରେ ଆମେ ସୀମିତ ସଂଖ୍ୟକ ଶବ୍ଦ କହିଥାଉ କିନ୍ତୁ ଗପ କହିବା ବେଳେ ଅଧିକ ଶବ୍ଦ ସହିତ ପରିଚିତ ହୁଅନ୍ତି ।
+                        <br>
+                        ଏହା ଏକ ସେଣ୍ଟରର ଫୋଟ, ଯେଉଁଠାରେ ପିଲାମାନେ ଗପ ଦେଖି ପଢୁଛନ୍ତି । ଗପ ପଢିବା ଦ୍ଵାରା ପିଲାମାନଙ୍କର ପଢିବା କୌଶଳ, ଶୈଳୀ ମଧ୍ୟ ଉନ୍ନତ ହୋଇଥାଏ ।
+                        <br><br>
+                        ଏବେ ସେଣ୍ଟରରେ ପିଲାମାନେ ଗପ କହୁଥିବା ଏବଂ ପଢୁଥିବା ଦେଖିଲେ ମୋର ଛୋଟ ବେଳ କଥା ମାନେ ପଡ଼ିଯାଏ । ଛୋଟ ବେଳେ ସନ୍ଧ୍ୟା ହେଲେ ଆମେ ସମସ୍ତେ ଜେଜେମାଆ ଚାରି ପାଖେ ବସି ଗପ ଶୁଣୁଥାଉ । ଗପ ଶୁଣିବା ପାଇଁ ଯେଉଁ ଉତ୍ସାହ ମନରେ ଥିଲା ତାହା ବୋଧ ହୁଏ ପାଠ ପଢାରେ ନ ଥିଲା । ମିଛୁଆ ରାଧୁଆ ଗପ ଠାରୁ ଆରମ୍ଭ କରି ବେତାଳ କଥା, ଆଜି ଯାଏ ବି ସ୍ପଷ୍ଟ ଭାବରେ ମୋର ମନେ ଅଛି । ଆଜି ଏତେ ବର୍ଷ ପରେ ମୁଁ ଭାବୁଛି ଯଦି ମୋ ପାଠକୁ ମୋତେ ଗପ ଆକାରରେ ପଢା ଯାଇ ଥାଆନ୍ତା ତା’ହେଲେ ବୋଧ ହୁଏ ପାଠଗୁଡିକ ସ୍ପଷ୍ଟ ଭାବରେ ମନେ ଥାଆନ୍ତା !
+                    </p>
+                      
+                </div>
+            </div>
+        </div>
+        <!-----------------------About Ends----------------------->
+            
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
+</html>
